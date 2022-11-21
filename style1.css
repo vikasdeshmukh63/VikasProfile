@@ -1,0 +1,117 @@
+.item-list:hover{
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+}
+
+.item-list a:hover{
+    color:black;
+}
+
+#home::before{
+    content:"";
+    background-color: #ffe77d;
+    background-image: url(./images/whole\ art\ 1.png);
+    background-size: cover;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index:-2;
+}
+
+.hire-me:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+
+#about::before{
+    content:"";
+    background-color:#f1700e;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: -2;
+}
+
+#project::before{
+   content:"";
+   background-color:#8258e3;  
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   left:0;
+   top:0;
+   z-index: -2;
+   background-image: url(./images/whole\ art\ 1.png);
+   background-size: contain;
+}
+
+.sub-box-1:hover{
+    scale: 102%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.sub-box-2:hover{
+    scale: 102%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.sub-box-3:hover{
+    scale: 102%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.sub-box-4:hover{
+    scale: 102%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.sub-box-5:hover{
+    scale: 102%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.sub-box-6:hover{
+    scale: 102%;
+    box-shadow: 5px 5px 5px black;
+}
+
+#skills::before{
+    content:"";
+    background-color: #c8a242;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    
+}
+
+.container-4 img:hover{
+    scale:105%;
+}
+
+#contact::before{
+    content:"";
+    background-color: black;
+    background-image: url(./images/clients.jpg);
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-2;
+}
+
+.sub:hover{
+    background: #3cb0fd;
+    text-decoration: none;
+}
